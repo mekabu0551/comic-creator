@@ -60,6 +60,9 @@ flowchart TD
     - **`setting/`**: キャラクターや世界観・地理背景などの設定資料
       - **`setting/characters/`**: キャラクターリスト・キャラクターシート（外見特徴、Nano Banana用固定プロンプトなど）
       - **`setting/world/`**: 世界観・地理背景・舞台設定資料
+    - **`foreshadow/`**: 今後の展開で回収される伏線・因縁・プロットの種を管理する資料
+      - **`foreshadow/template.md`**: 伏線管理テンプレート
+      - **回収ステータス管理**: 各伏線ファイルには必ず回収ステータス（`未回収 (Unresolved)` / `進行中・提示中 (In Progress)` / `回収済み (Resolved)`）を定義し、話数の進捗に応じて追跡・更新する。
     - **`summery/{話数}/{バージョン}/`**: あらすじファイル（例: `summery/ep01/v1/synopsis.md`）
     - **`plot/{話数}/{バージョン}/`**: プロット・ネーム構成ファイル（例: `plot/ep01/v1/plot.md`）
     - **`manuscripts/{話数}/{バージョン}/`**: Nano Banana で生成した漫画画像および原稿データ（例: `manuscripts/ep01/v1/`）
