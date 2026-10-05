@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Google Drive API credentials & tokens
+credentials.json
+token.json
+service_account.json
+*.secret.json
+.env
